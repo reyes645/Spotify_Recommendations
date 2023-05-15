@@ -1,0 +1,117 @@
+body {
+  font-family: 'Roboto', Arial, sans-serif;
+  background-color: #181818;
+  color: #FFFFFF;
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+}
+
+.link {
+  color: white;
+  transition: color 0.3s ease;
+}
+
+.link:hover {
+  color: #1DB954;
+}
+
+h1, h2 {
+  font-weight: 700;
+  letter-spacing: -1px;
+}
+
+h1 {
+  color: #1DB954;
+  font-size: 2em;
+  text-align: center;
+  padding: 20px 0;
+}
+
+h2 {
+  color: #1DB954;
+  font-size: 1.5em;
+  padding: 10px 0;
+}
+
+.media {
+  display: flex;
+  align-items: center;
+  margin: 20px 0;
+  border-bottom: 1px solid #333;
+  padding-bottom: 20px;
+}
+
+.media-object {
+  margin-right: 20px;
+  border-radius: 50%;
+}
+
+.media-body {
+  flex-grow: 1;
+}
+
+.dl-horizontal {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .dl-horizontal dt {
+    color: #1DB954;
+    flex: 1 0 30%; 
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+  
+  .dl-horizontal dd {
+    color: #FFFFFF;
+    flex: 1 0 70%; 
+    padding: 5px 0;
+  }  
+
+.btn {
+  color: white;
+  background-color: #1DB954;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 20px;
+  border: none;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+}
+
+.btn:hover {
+  background-color: white;
+  color: #1DB954;
+}
+
+.text-overflow {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 80%;
+  color: #b3b3b3;
+}
+
+#login {
+  text-align: center;
+  padding: 50px 0;
+}
+
+#loggedin {
+  display: none;
+}
+
+#top-artists, #top-tracks, #top-recommendations {
+  color: #b3b3b3;
+  font-style: italic;
+}
